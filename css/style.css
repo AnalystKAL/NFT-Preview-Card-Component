@@ -40,6 +40,7 @@ p {
 
 img {
     border-radius: 5px;
+    object-fit: contain;
 }
 
 .container {
@@ -61,7 +62,6 @@ img {
     display: flex;
     column-gap: 0.5em;
     align-content: center;
-    object-fit: cover;
 }
 
 .eth-icon-amount {
