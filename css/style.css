@@ -57,6 +57,13 @@ img {
     justify-content: space-between;
 }
 
+.eth-icon-amount, .eth-timer {
+    display: flex;
+    column-gap: 0.5em;
+    align-content: center;
+    object-fit: cover;
+}
+
 .eth-icon-amount {
     color: var(--cyan);
 }
