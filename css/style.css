@@ -31,10 +31,16 @@ h1 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--white);
+    padding-top: 1rem;
+}
+
+h1:hover{
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -65,5 +71,14 @@ img {
 }
 
 .eth-icon-amount {
+    color: var(--cyan);
+}
+
+.user-class {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.user-class:hover{
     color: var(--cyan);
 }
